@@ -71,16 +71,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\ConfiguracionMicrosip.cs" />
+    <Compile Include="clases\ConfiguracionMysql.cs" />
     <Compile Include="guis\Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="guis\Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="guis\SplashInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guis\SplashInicio.Designer.cs">
+      <DependentUpon>SplashInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="guis\Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guis\SplashInicio.resx">
+      <DependentUpon>SplashInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
