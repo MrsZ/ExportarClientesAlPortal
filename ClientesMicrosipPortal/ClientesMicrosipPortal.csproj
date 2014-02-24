@@ -60,6 +60,7 @@
       <HintPath>libs\Sofbr.Utils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -71,8 +72,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\Cliente.cs" />
     <Compile Include="clases\ConfiguracionMicrosip.cs" />
     <Compile Include="clases\ConfiguracionMysql.cs" />
+    <Compile Include="clases\Firebird_DAL.cs" />
+    <Compile Include="clases\Mysql_DAL.cs" />
     <Compile Include="guis\Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +107,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\ClientesMicrosipPortal.clases.Cliente.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
