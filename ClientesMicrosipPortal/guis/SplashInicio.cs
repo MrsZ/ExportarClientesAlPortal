@@ -54,6 +54,8 @@ namespace ClientesMicrosipPortal.guis
                     }
                 }
             }
+
+            this.Close();
         }
 
         private bool CargaConfiguracionMicrosip()
@@ -67,7 +69,7 @@ namespace ClientesMicrosipPortal.guis
             if (cargaExitosaMicrosip == false)
             {
                 MessageBox.Show(confMicrosip.errorMessage);
-                this.Close();
+                return false;
             }
 
             lblAccion.Text = "Configuración cargada con exito...";
@@ -84,7 +86,7 @@ namespace ClientesMicrosipPortal.guis
             if (cargaExitosaMysql == false)
             {
                 MessageBox.Show(confMysql.errorMessage);
-                this.Close();
+                return false;
             }
 
             lblAccion.Text = "Configuración cargada con exito...";
@@ -101,7 +103,7 @@ namespace ClientesMicrosipPortal.guis
             if (sIdVendedor == "0")
             {
                 MessageBox.Show("Aun no se ha configurado el ID del vendedor en el archivo App.config...");
-                this.Close();
+                return false;
             }
 
             Application.DoEvents();
@@ -122,7 +124,7 @@ namespace ClientesMicrosipPortal.guis
             if (sRespuesta != "OK")
             {
                 MessageBox.Show(sRespuesta);
-                this.Close();
+                return false;
             }
 
             Application.DoEvents();
