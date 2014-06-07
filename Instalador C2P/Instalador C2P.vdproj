@@ -34,19 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
-        "OwnerKey" = "8:_E465DDA89B32AC6D231A447F491F78A8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
-        "OwnerKey" = "8:_9892B1ACA0B6DCFAF53F2CFE0768B739"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
-        "OwnerKey" = "8:_B2983168266C214DBB456CE76EBC35D5"
+        "OwnerKey" = "8:_E4DD38A6FC94DDE346038EBA994E6258"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,7 +46,19 @@
         "Entry"
         {
         "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
-        "OwnerKey" = "8:_E4DD38A6FC94DDE346038EBA994E6258"
+        "OwnerKey" = "8:_B2983168266C214DBB456CE76EBC35D5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
+        "OwnerKey" = "8:_9892B1ACA0B6DCFAF53F2CFE0768B739"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
+        "OwnerKey" = "8:_E465DDA89B32AC6D231A447F491F78A8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -77,6 +77,12 @@
         {
         "MsmKey" = "8:_8B2B93F142D619904204EEF4E132BF69"
         "OwnerKey" = "8:_93EE5873DE1647EB82F0136250497C69"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_91F5092A51AA4558801FC6D264EE6071"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -184,12 +190,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_93EE5873DE1647EB82F0136250497C69"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -247,6 +247,12 @@
         "OwnerKey" = "8:_E465DDA89B32AC6D231A447F491F78A8"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_30C46AD920BBDAF62FA5BDC0098D2008"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -265,6 +271,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -281,6 +308,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -452,6 +500,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_91F5092A51AA4558801FC6D264EE6071"
+            {
+            "SourcePath" = "8:..\\ClientesMicrosipPortal\\conf\\Leeme.txt"
+            "TargetName" = "8:Borrame"
+            "Tag" = "8:"
+            "Folder" = "8:_368CB895EC2641CBA284DA048165BED1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9892B1ACA0B6DCFAF53F2CFE0768B739"
@@ -656,6 +724,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_368CB895EC2641CBA284DA048165BED1"
+                    {
+                    "Name" = "8:conf"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_71F4247B14B940AB9543B3F80215F308"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_2A174649693740CF989E9ED628D5879F"
@@ -697,7 +776,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Exportador de clientes al portal"
         "ProductCode" = "8:{D3A9E8B5-765E-4F93-8E3D-4BB91BFEBDDE}"
-        "PackageCode" = "8:{DCF487DF-7958-435C-9226-66147B4DB7F6}"
+        "PackageCode" = "8:{589AE11C-CB9C-4C4C-A74F-339CE35D622E}"
         "UpgradeCode" = "8:{8828B5B9-C55F-44B7-8E20-4C3CAC3BFF7E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
