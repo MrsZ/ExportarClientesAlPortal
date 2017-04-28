@@ -131,5 +131,10 @@ namespace ClientesMicrosipPortal.guis
                 MessageBox.Show(sb.ToString(), (ex.GetType()).ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Frm_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,7 +41,7 @@ namespace ClientesMicrosipPortal.clases
                             @"SELECT 
                                   CLAVES_CLIENTES.CLAVE_CLIENTE AS ClaveCliente,
                                   CLIENTES.NOMBRE AS NombreCliente,
-                                  CLAVES_CAT_SEC.CLAVE AS ClaveRuta,
+                                  CLAVES_CAT_SEC.CLAVE AS ClaveRuta, 
                                   VIAS_EMBARQUE.NOMBRE AS Ruta
                                 FROM
                                   CLAVES_CLIENTES
@@ -52,8 +52,7 @@ namespace ClientesMicrosipPortal.clases
                                   INNER JOIN CLAVES_CAT_SEC ON (VIAS_EMBARQUE.VIA_EMBARQUE_ID = CLAVES_CAT_SEC.ELEM_ID)
                                   INNER JOIN TIPOS_CLIENTES ON (CLIENTES.TIPO_CLIENTE_ID = TIPOS_CLIENTES.TIPO_CLIENTE_ID)
                                 WHERE
-                                  ROLES_CLAVES_CLIENTES.ES_PPAL LIKE 'S' AND 
-                                  TIPOS_CLIENTES.NOMBRE LIKE '%FORANEO%'";
+                                  ROLES_CLAVES_CLIENTES.ES_PPAL LIKE 'S'";
             fbCommand = new FbCommand(sConsulta, fbConexion);
             fbAdapter = new FbDataAdapter(fbCommand);            
             fbAdapter.Fill(dtResultado);

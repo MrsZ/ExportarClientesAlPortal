@@ -468,6 +468,7 @@
             this.Name = "Frm_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Exportar clientes desde Microsip al portal www.loscorrales.com";
+            this.Load += new System.EventHandler(this.Frm_Principal_Load);
             this.Shown += new System.EventHandler(this.Frm_Principal_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.gridClientesMicrosip)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
